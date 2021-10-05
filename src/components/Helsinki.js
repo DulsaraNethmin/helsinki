@@ -37,7 +37,7 @@ function Helsinki(){
         < div className="card-body">
         <h5 className="card-title">Happy Helsinki</h5>
         <p className="card-text">Don't trust your eye ! Snake is moving...</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
+        <a href="#" className="btn btn-primary"><Link to='/restricted' className='text-light'>Go somewhere</Link></a>
         </div>
       </div>
   </div>
