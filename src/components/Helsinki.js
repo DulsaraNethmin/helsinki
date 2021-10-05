@@ -8,9 +8,9 @@ function Helsinki(){
 <div className="container-xxl mt-2 d-float  w-100 h-100">
 <nav className="navbar navbar-light bg-light  mb-5">
   <div className="container-fluid d-sm-inline">
-    <a className="navbar-brand text-center fw-bold fs-3 text-primary" href="#">
-      IEEE Open Day 2021
-    </a>
+    <spam className="navbar-brand text-center fw-bold fs-3 text-primary cursor-pointer">
+      <Link to='/codeone' class='text-decoration-none'>IEEE Open Day</Link><Link to='/codetwo' class='text-decoration-none'>2021</Link>
+    </spam>
   </div>
 </nav>
   <div className="text-center">
@@ -24,7 +24,7 @@ function Helsinki(){
                   Happy Helsinki
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Don't trust your eye ! Snake is moving...</h5>
+                  <h5 class="card-title">No moon night is clam - there is one way to spend that night !</h5>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary"><Link to='/restricted' className='text-light'>Go somewhere</Link></a>
                 </div>

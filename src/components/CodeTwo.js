@@ -1,15 +1,13 @@
-import React from 'react-router-dom';
+import React from 'react';
 import {Link} from 'react-router-dom';
-import flame from './flame-2x700.jpg';
-import question from './question.png';
+import star from './star.jpeg';
 import helsinki_mibile from './helsinki-mobile.jpeg';
-
-function Restricted(){
+function CodeTwo(){
     return(
-        <div className="container-xxl mt-2 d-float mt-6 w-100 h-100">
-                <div class="row align-items-center d-none d-sm-flex">
+<div className="container-xxl mt-2 d-float  w-100 h-100">
+            <div class="row align-items-center d-none d-sm-flex">
                     <div class="col">
-                    <img src={question} class="rounded d-none d-sm-inline" alt="..."/>
+                    <img src={star} class="rounded d-none d-sm-inline" alt="..."/>
                     </div>
                     <div class="col">
                         <div class="card">
@@ -17,7 +15,7 @@ function Restricted(){
                             This is Restricted Area
                             </div>
                             <div class="card-body">
-                            <h5 class="card-title">Attention! Do't touch anything!</h5>
+                            <h5 class="card-title">Add today</h5>
                             <p class="card-text"></p>
                             <a href="#" class="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
                             </div>
@@ -33,8 +31,7 @@ function Restricted(){
             <a href="#" className="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
             </div>
             </div>   
-        </div>
+        </div> 
     );
-} 
-
-export default Restricted;
+}
+export default CodeTwo;
