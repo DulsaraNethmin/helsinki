@@ -1,15 +1,14 @@
 import './App.css';
 import React, { StrictMode } from 'react';
-import hr from './hr.jpeg';
-import sa from './s.jpeg'; 
-import vr from './vira.jpeg';
+import helsinki from './helsinki.jpeg';
+import helsinki_1000 from './helsinki1000_height.jpeg';
 
 function App() {
   return (
-<div className='container-sm'>
-<div class="container-xxl p-none p-lg-3 varient-primary">
-  hi
-</div>
+<div className="container-xxl mt-5 d-float  text-center w-100 h-100">
+    <div class="text-center">
+      <img src={helsinki_1000} class="rounded" alt="..."/>
+    </div>
 </div>
   );
 }
