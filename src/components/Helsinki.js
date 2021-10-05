@@ -1,6 +1,7 @@
 import React from 'react';
 import helsinki_mibile from './helsinki-mobile.jpeg';
 import flame from './flame-2x700.jpg';
+import {Link} from 'react-router-dom';
 
 function Helsinki(){
     return(
@@ -25,7 +26,7 @@ function Helsinki(){
                 <div class="card-body">
                   <h5 class="card-title">Don't trust your eye ! Snake is moving...</h5>
                   <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary"><Link to='/restricted' className='text-light'>Go somewhere</Link></a>
                 </div>
               </div>
             </div>
