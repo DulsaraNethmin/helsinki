@@ -4,6 +4,7 @@ import helsinki from './helsinki.jpeg';
 import helsinki_1000 from './helsinki1000_height.jpeg';
 import helsinki_mibile from './helsinki-mobile.jpeg';
 import flame from './flame-2x700.jpg';
+import question from './question.png';
 
 function App() {
   return (
@@ -24,11 +25,11 @@ function App() {
             <div class="col">
               <div class="card">
                 <div class="card-header">
-                  Featured
+                  Happy Helsinki
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Don't trust your eye ! Snake is moving...</h5>
+                  <p class="card-text"></p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
@@ -38,8 +39,8 @@ function App() {
       <div className="card d-sm-none">
         <img src={helsinki_mibile} class="card-img-top" alt="..."/>
         < div className="card-body">
-        <h5 className="card-title">Helsinki</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 className="card-title">Happy Helsinki</h5>
+        <p className="card-text">Don't trust your eye ! Snake is moving...</p>
         <a href="#" className="btn btn-primary">Go somewhere</a>
         </div>
       </div>
