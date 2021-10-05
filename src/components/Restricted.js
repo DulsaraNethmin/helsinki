@@ -2,6 +2,7 @@ import React from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import flame from './flame-2x700.jpg';
 import question from './question.png';
+import helsinki_mibile from './helsinki-mobile.jpeg';
 
 function Restricted(){
     return(
@@ -22,7 +23,16 @@ function Restricted(){
                             </div>
                         </div>
                     </div>
-                </div>     
+                </div>  
+
+            <div className="card d-sm-none">
+            <img src={helsinki_mibile} class="card-img-top" alt="..."/>
+            < div className="card-body">
+            <h5 className="card-title">This is Restricted Area</h5>
+            <p className="card-text">Finish the task and take your screen shot !</p>
+            <a href="#" className="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
+            </div>
+            </div>   
         </div>
     );
 } 
