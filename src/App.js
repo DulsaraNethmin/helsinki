@@ -1,12 +1,19 @@
 import './App.css';
-import React from 'react';
-
+import React, { StrictMode } from 'react';
+import hr from './hr.jpeg';
 
 function App() {
   return (
-<div>
-<button type="button" class="btn btn-danger">Primary</button>
+    <div className='container-sm'>
+      <div class="card my-4 p">
+  <img src={hr} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Mawathagama Harsha</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
 </div>
+    </div>
   );
 }
 
