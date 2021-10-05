@@ -1,10 +1,12 @@
 import './App.css';
+import React from 'react';
+
 
 function App() {
   return (
-    <div className="App">
-          hi hello2
-    </div>
+<div>
+<button type="button" class="btn btn-danger">Primary</button>
+</div>
   );
 }
 
