@@ -15,7 +15,7 @@ function CodeOne(){
                             This is Restricted Area
                             </div>
                             <div class="card-body">
-                            <h5 class="card-title">Finish the task and take your screen shot !</h5>
+                            <h5 class="card-title">Count Count !</h5>
                             <p class="card-text"></p>
                             <a href="#" class="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
                             </div>
