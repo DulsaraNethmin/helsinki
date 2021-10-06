@@ -12,10 +12,10 @@ function CodeOne(){
                     <div class="col">
                         <div class="card">
                             <div class="card-header text-danger">
-                            This is Restricted Area
+                            Isn't it clam night ?
                             </div>
                             <div class="card-body">
-                            <h5 class="card-title">Count Count !</h5>
+                            <h5 class="card-title">Look! They are shining...</h5>
                             <p class="card-text"></p>
                             <a href="#" class="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
                             </div>
@@ -24,10 +24,10 @@ function CodeOne(){
                 </div>  
 
             <div className="card d-sm-none">
-            <img src={helsinki_mibile} class="card-img-top" alt="..."/>
+            <img src={star} class="card-img-top" alt="..."/>
             < div className="card-body">
-            <h5 className="card-title">This is Restricted Area</h5>
-            <p className="card-text">Finish the task and take your screen shot !</p>
+            <h5 className="card-title">Isn't it clam night ?</h5>
+            <p className="card-text">Look! They are shining...</p>
             <a href="#" className="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
             </div>
             </div>   

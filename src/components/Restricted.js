@@ -17,7 +17,7 @@ function Restricted(){
                             This is Restricted Area
                             </div>
                             <div class="card-body">
-                            <h5 class="card-title">Attention! Do't touch anything!</h5>
+                            <h5 class="card-title">Attention! You came to the wrong place</h5>
                             <p class="card-text"></p>
                             <a href="#" class="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
                             </div>
