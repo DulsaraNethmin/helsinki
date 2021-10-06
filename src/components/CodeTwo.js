@@ -27,8 +27,8 @@ function CodeTwo(){
             <div className="card d-sm-none">
             <img src={helsi_purple} class="card-img-top" alt="..."/>
             < div className="card-body">
-            <h5 className="card-title">You're wasting your time!</h5>
-            <p className="card-text">Count everything to survive</p>
+            <h5 className="card-title">Hey Kid, You're wasting your time!</h5>
+            <p className="card-text">Counting is the only way to survive</p>
             <a href="#" className="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
             </div>
             </div>   
