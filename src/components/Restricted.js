@@ -17,7 +17,7 @@ function Restricted(){
                             This is Restricted Area
                             </div>
                             <div class="card-body">
-                            <h5 class="card-title">Attention! You came to the wrong place - mr.year will help you </h5>
+                            <h5 class="card-title">Attention! You came to the wrong place - <span class='text-danger'>mr.year</span> will help you </h5>
                             <p class="card-text"></p>
                             <a href="#" class="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
                             </div>
@@ -29,7 +29,7 @@ function Restricted(){
             <img src={helsinki_mibile} class="card-img-top" alt="..."/>
             < div className="card-body">
             <h5 className="card-title">This is Restricted Area</h5>
-            <p className="card-text">Attention! You came to the wrong place - mr.year will help you </p>
+            <p className="card-text">Attention! You came to the wrong place - <span class='text-danger'>mr.year</span> will help you </p>
             <a href="#" className="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
             </div>
             </div>   
