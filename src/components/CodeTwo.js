@@ -13,10 +13,10 @@ function CodeTwo(){
                     <div class="col">
                         <div class="card">
                             <div class="card-header text-danger">
-                            You're wasting your time!
+                            Hey Kid, You're wasting your time!
                             </div>
                             <div class="card-body">
-                            <h5 class="card-title">Count everything to survive</h5>
+                            <h5 class="card-title">Counting is the only way to survive</h5>
                             <p class="card-text"></p>
                             <a href="#" class="btn btn-primary"><Link to='/' className='text-light'>Go Back</Link></a>
                             </div>
