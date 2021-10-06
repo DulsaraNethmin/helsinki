@@ -9,7 +9,7 @@ function Helsinki(){
 <nav className="navbar navbar-light bg-light  mb-5">
   <div className="container-fluid d-sm-inline">
     <spam className="navbar-brand text-center fw-bold fs-3 text-primary cursor-pointer">
-      <Link to='/codeone' class='text-decoration-none'>IEEE Open Day</Link><Link to='/codetwo' class='text-decoration-none'>2021</Link>
+      <Link to='/codeone' class='text-decoration-none'>IEEE Open Day - </Link><Link to='/codetwo' class='text-decoration-none ml-4'>2021</Link>
     </spam>
   </div>
 </nav>
@@ -24,9 +24,9 @@ function Helsinki(){
                   Happy Helsinki
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">No moon-night is clam - there is one way to spend that night !</h5>
+                  <h5 class="card-title">No moon-night is calm - there is one way to spend that night !</h5>
                   <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary"><Link to='/restricted' className='text-light'>Don't Click</Link></a>
+                  <a href="#" class="btn btn-primary"><Link to='/restricted' className='text-light'>Click Everywhere</Link></a>
                 </div>
               </div>
             </div>
@@ -36,8 +36,8 @@ function Helsinki(){
         <img src={helsinki_mibile} class="card-img-top" alt="..."/>
         < div className="card-body">
         <h5 className="card-title">Happy Helsinki</h5>
-        <p className="card-text">No moon-night is clam - there is one way to spend that night !</p>
-        <a href="#" className="btn btn-primary"><Link to='/restricted' className='text-light'>Don't Click</Link></a>
+        <p className="card-text">No moon-night is calm - there is one way to spend that night !</p>
+        <a href="#" className="btn btn-primary"><Link to='/restricted' className='text-light'>Click Everywhere</Link></a>
         </div>
       </div>
   </div>
