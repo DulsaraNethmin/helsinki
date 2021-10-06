@@ -33,7 +33,7 @@ function Helsinki(){
       </div>
       
       <div className="card d-sm-none">
-        <img src={helsinki_mibile} class="card-img-top" alt="..."/>
+        <img src={helsinki_mibile} class="card-img-top" alt=".."/>
         < div className="card-body">
         <h5 className="card-title">Happy Helsinki</h5>
         <p className="card-text">No moon-night is clam - there is one way to spend that night !</p>
