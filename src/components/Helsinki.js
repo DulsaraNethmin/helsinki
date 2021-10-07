@@ -24,7 +24,7 @@ function Helsinki(){
                   Happy Helsinki
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">No moon-night is clam - there is one way to spend that night !</h5>
+                  <h5 class="card-title">No moon-night is calm.There is one way to spend that night!</h5>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary"><Link to='/restricted' className='text-light'>Click Everywhere</Link></a>
                 </div>
@@ -36,7 +36,7 @@ function Helsinki(){
         <img src={helsinki_mibile} class="card-img-top" alt=".."/>
         < div className="card-body">
         <h5 className="card-title">Happy Helsinki</h5>
-        <p className="card-text">No moon-night is clam - there is one way to spend that night !</p>
+        <p className="card-text">No moon-night is calm.There is one way to spend that night!</p>
         <a href="#" className="btn btn-primary"><Link to='/restricted' className='text-light'>Click Everywhere</Link></a>
         </div>
       </div>
